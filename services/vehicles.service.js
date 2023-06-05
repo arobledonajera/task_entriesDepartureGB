@@ -3,7 +3,7 @@ const { vehicles } = require("../repositories/index.repository");
 const moment = require("moment");
 
 const taskEntriesDepartures = async () => {
-    //Devices Grupo Bimbo
+
 const devicesId = ["b621","b60A","b609","b60B","bA43","bA45","bA40","bA42",
 "b9B0","bA48","bA4C","bA3F","bA3C","bA3B","bA05","bA4A","bA08","bA4B","bA36","b9B8","bA49","bA09","b9B9","b9B7","bA0B","bA06",
 "bA0A","bA07","bA35","bA47","bA46","bA44","b608"];
