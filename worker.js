@@ -14,7 +14,7 @@ async function start(){
       let flag = fs.readFileSync('./band.json', 'utf-8')
       if(flag === "true"){
         await entriesDepartures.taskEntriesDepartures();
-        //await sendEmail("Task Entries and Departures of Vehicles executed successfully!")
+        await sendEmail("Task Entries and Departures of Vehicles executed successfully!")
           }
     },{
       scheduled: true,
