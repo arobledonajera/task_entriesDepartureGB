@@ -1,0 +1,27 @@
+{
+  "name": "task-entriesdeparturesvehicles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AR",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.7.2",
+    "node-schedule": "^2.1.1",
+    "pg": "^8.9.0",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
